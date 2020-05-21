@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html style="background-color: #3c3c3c;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Vanadium</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css?h=cabc25193678a4e8700df5b6f6e02b7c">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css?h=8045a4dca95eb6931473606f7a274f5a">
+    <link rel="stylesheet" href="assets/css/styles.css?h=d41d8cd98f00b204e9800998ecf8427e">
+</head>
+
+<body style="background-color: #3c3c3c;">
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
+        <div class="container"><a class="navbar-brand" href="#">Vanadium</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <p class="navbar-text">City of Mount Vernon, Ohio</p>
+                <ul class="nav navbar-nav mr-auto"></ul><span class="navbar-text actions"> <a class="btn btn-secondary action-button" role="button" href="#" style="background-color: #3c3c3c;">Logout/Exit</a></span></div>
+        </div>
+    </nav>
+    <div class="container" id="heading">
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="text-light" style="margin: 40px;">Welcome to Vanadium</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="introtext">
+        <div class="row">
+            <div class="col">
+                <p class="text-light">Make a search query below to begin. When you are finished, log out in the upper-right corner to release system resources allocated for you and for increased security.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="search_all_cont">
+        <div class="row">
+            <div class="col">
+                <h3 class="text-light">All Searchable Fields</h3>
+                <p class="text-light">Search account numbers, account statuses, names, addresses, phone numbers, emails, and dates of birth.</p>
+                <form id="search_all" action="search_all.php" method="post"><input class="form-control" type="text" id="all_search_field" name="all_search_field" placeholder="Search Query"><button class="btn btn-primary" type="submit" style="background-color: #b794ff;margin: 10px;"><i class="fa fa-search"></i>&nbsp;Search</button></form>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="search_select">
+        <div class="row">
+            <div class="col">
+                <h3 class="text-light">Select Search</h3>
+                <p class="text-light">Search account numbers, account statuses, names, addresses, phone numbers, emails, and dates of birth.</p>
+                <form id="search_select" action="search_select.php" method="post"><input class="form-control" type="text" id="select_search_field" name="all_search_field" placeholder="Search Query"><label class="text-light" style="margin-top: 16px;" for="searchtype">Search by:</label><select class="form-control" id="searchtype"><optgroup label="Select search type" disabled="" selected=""><option value="acct" selected="">Search by account number</option><option value="addr">Search by address</option></optgroup></select>
+                    <button
+                        class="btn btn-primary" type="submit" style="background-color: #b794ff;margin: 10px;"><i class="fa fa-search"></i>&nbsp;Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="show_all">
+        <div class="row">
+            <div class="col">
+                <h3 class="text-light">Show All</h3>
+                <p class="text-light">Display all of the entries in the database. This operation might take a <em>very</em> long time! Please confirm that you want to carry out this operation. During the operation, your web browser and the remote server may appear to hang.
+                    See the help page for more information.</p>
+                <form id="search_select" action="show_all.php" method="post"><select class="form-control" id="confirm"><option value="" selected="" disabled="">Please confirm!</option><option value="1">Yes, I really want to do this!</option></select><button class="btn btn-primary" type="submit" style="background-color: #b794ff;margin: 10px;"><i class="fa fa-search"></i>&nbsp;Search</button></form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center"><a class="btn btn-primary" role="button" href="./help" style="background-color: #b794ff;margin: 20px;">View the help document</a></div>
+        </div>
+    </div>
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 item text">
+                        <h3>Vanadium</h3>
+                        <p>Vanadium is a web-application designed to allow you to access older utility records that would otherwise be lost or inaccessible due to legacy, deprecated software packages.<br></p>
+                    </div>
+                </div>
+                <p class="copyright">Made with&nbsp;<i class="fa fa-heart"></i> by S Canfield, M Brydon, and S Kim in Gambier, Ohio</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

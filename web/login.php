@@ -50,7 +50,7 @@
   $sql = "SELECT DISTINCT username
   FROM accountctrl
   WHERE username = $username
-  AND salted = $salted"; // SELECT DISTINCT column-name FROM table-name WHERE condition;
+  AND password = $salted"; // SELECT DISTINCT column-name FROM table-name WHERE condition;
   // Should return exactly 1 if the username and password are correct
 
   // Check SQL query and result

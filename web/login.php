@@ -23,7 +23,7 @@
   $link = mysqli_connect("localhost", "mvwater-admin", "!kOCs7v5UT4nxSMVRZD!vmlg119c!T3s", "accountctrl"); // (database, usename, password, schema)
   // Connect and check connection
   if (mysqli_connect_errno()) {
-    die("Connection failed: " . $link->connect_error);
+    died("Connection failed: " . $link->connect_error);
   }
 
   // Check to see if all of the fields are filled
@@ -42,7 +42,7 @@
   // Usage: password_hash ( string $password , mixed $algo [, array $options ] ) : string
   // Usage docs: https://www.php.net/manual/en/function.password-hash.php
   $algo = PASSWORD_DEFAULT; // Should be stored as a 255-char varchar
-  $salted = password_hash( string $password, $algo ) : string
+  $salted = password_hash( string $password, $algo ) : string;
 
   $error_message = "";
 
@@ -71,7 +71,7 @@
     '
     <script>
     //Authentication failure
-    alert("Authentication Failure\nPlease check your username and password!")
+    alert("Authentication Failure\nPlease check your username and password!");
     </script>
     ';
   }

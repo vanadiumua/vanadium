@@ -1,5 +1,11 @@
 # VANADIUM Utility Records Management
 
+---
+
+Travis Build Status: [![Build Status](https://travis-ci.org/vanadiumua/vanadium.svg?branch=master)](https://travis-ci.org/vanadiumua/vanadium)
+
+---
+
 The Knox County Department of Watershed is currently using a closed-source data management system to store data on water usage, service calls, customer status, and other critical metric for serving paying customers who tap into city water service. The Department of Watershed serves anyone in Knox County, including residents of Mount Vernon, Gambier, and the surrounding areas. This project is designed to pull old data from saved CSV files and make them accessible to modern software packages, while increasing the ease of use for the end user.
 
 ## Specifications

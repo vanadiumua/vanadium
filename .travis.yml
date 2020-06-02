@@ -8,7 +8,7 @@ dist: bionic
 services:
   - mysql
 script:
-  - web/index.php
-  - web/home/search_all.php
-  - web/home/search_select.php
-  - web/home/show_all.php
+  - ./web/index.php
+  - ./web/home/search_all.php
+  - ./web/home/search_select.php
+  - ./web/home/show_all.php

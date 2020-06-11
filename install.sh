@@ -68,6 +68,8 @@ nginx(){
   if [ -d "$www" ]; then
     echo "Installing to /usr/local/nginx/html"
     # Installation copies go here
+    
+    echo "The installation scripts have not been defined. Please check for updates with the developer."
 
     pause
     show_menus
@@ -77,6 +79,8 @@ nginx(){
     if [ -d "$www" ]; then
       echo "Installing to $www"
       # Installation copies go here
+      
+      echo "The installation scripts have not been defined. Please check for updates with the developer."
 
       pause
       show_menus

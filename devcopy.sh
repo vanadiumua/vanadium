@@ -9,5 +9,10 @@ echo ""
 echo "Attempting to copy HTML and PHP files to /var/www/html/"$FINAL_DIR
 echo ""
 
-sudo cp -r ~/vanadium/web/. /var/www/html/$FINAL_DIR
-
+{ # try
+  sudo cp -r ~/vanadium/web/. /var/www/html/$FINAL_DIR
+  echo "Copy success"
+  echo "All done!"
+} || { # catch
+  echo "Copy failed!"
+}

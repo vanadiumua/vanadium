@@ -44,20 +44,44 @@ We encourage you to use our templates when filing your issues, BUT if nothing fi
 - Limit the first line to 72 characters or less
 - Reference issues and pulls requests liberally after the first line.
 - Consider starting the commit message with an applicable emoji to make it easier to see.
-  + :art: `:art:` when improving the format or structure of code
-  + :racehorse: `:racehorse:` when making performance improvements
-  + :memo: `:memo:` when writing documentation
-  + :penguin: `:penguin:` when fixing specific to Linux
-  + :santa: `:santa:` when fixing issues specific to Windows Server
+  + :tada: `:tada:` for initial commits
+
   + :bug: `:bug:` when fixing a bug
   + :fire: `:fire:` when removing code or files
+  + :pencil2: `:pencil2:` fixing typos
+  + :toilet: `:toilet:` when doing garbage collection
   + :white_check_mark: `:white_check_mark:` when adding testing programs
+  + :construction: `:construction:` when code in progress (do not merge)*
+  + :loud_sound: `:loud_sound:` adding or updating logs
+  + :mute: `:mute:` Removing logs
+
+  + :art: `:art:` when improving the format or structure of code
+  + :recycle: `:recycle:` when refactoring code
+  + :lipstick: `:lipstick:` adding/updating UI or style files
+  + :children_crossing: `:children_crossing:` improving UX or usability
+  
+  + :racehorse: `:racehorse:` when making performance improvements
   + :lock: `:lock:` when dealing with security
+  + :memo: `:memo:` when writing documentation
+  + :truck: `:truck:` moving or renaming code
+  + :bulb: `:bulb:` adding or updating comments in source code
+  + :card_file_box: `:card_file_box:` adding or updating database related changes
+  
+  + :poop: `:poop:` writing bad code that will need improved
+  + :beers: `:beers:` writing code drunkenly
+  
+  + :see_no_evil: `:see_no:evil:` adding or updating .gitignore file
+  + :penguin: `:penguin:` when fixing specific to Linux
+  + :santa: `:santa:` when fixing issues specific to Windows Server
   + :arrow_up: `:arrow_up:` when ADDING dependencies
   + :arrow_down: `:arrow_down:` when REMOVING dependencies
-  + :space_invader: `:space_invader:` when adding meeting notes
-  + :tada: `:tada:` for initial commits
-  + :toilet: `:toilet:` when doing garbage collection
+  
+  + :alembic: `:alembic:` experimenting new things
+  + :sparkles: `:sparkles:` introducing new features
+  + :rocket: `:rocket:` deploying stuff
+  + :twisted_rightwards_arrows: `:twisted_rightwards_arrows:` merging branches
+  
+* Asterisk means secondary emoji, typically combined with primary
 
 ### GitHub Pull Requests
 

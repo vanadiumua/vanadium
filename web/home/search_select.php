@@ -12,9 +12,9 @@
   }
 
   $serverName = "localhost";
-  $Uid = "mvwateradmin";
-  $Pwd = "6jBNqnjTewdFnLW78fzkF7JFCCMtjAfrgEyZtZ5zxH3BSLRMrmybFNevE3sGjdmCxqrvwhgvT3GDvGp6Khve5ZJgYMY52JSZzptzZsZzfp6grFjG3S5qMSHXUk3LNSSu";
-  $dbName = "mvwater";
+  $Uid = "mvwater-admin";
+  $Pwd = "b7VW29LJyAyDbr3sBMsrSfr4uCZbXUHMcYWdGES3878C4pgpJkUwN9whRdPMYKY9c5UZhgCL7TKHGbjsT8WdCAXAaa84yzenXVmXHjGmSKmfP7N9GHxcR3g8ANTbtwRs";
+  $dbName = "fake_data";
 
   // Create SQL database connection
   $link = mysqli_connect($serverName, $Uid, $Pwd, $dbName);

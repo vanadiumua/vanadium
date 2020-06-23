@@ -20,7 +20,7 @@
   }
 
   // Create database connection
-  $link = mysqli_connect("localhost", "mvwater-admin", "!kOCs7v5UT4nxSMVRZD!vmlg119c!T3s", "accountctrl"); // (database, usename, password, schema)
+  $link = mysqli_connect("localhost", "mvwater-admin", "b7VW29LJyAyDbr3sBMsrSfr4uCZbXUHMcYWdGES3878C4pgpJkUwN9whRdPMYKY9c5UZhgCL7TKHGbjsT8WdCAXAaa84yzenXVmXHjGmSKmfP7N9GHxcR3g8ANTbtwRs", "accountctrl"); // (database, usename, password, schema)
   // Connect and check connection
   if (mysqli_connect_errno()) {
     died("Connection failed: " . $link->connect_error);
